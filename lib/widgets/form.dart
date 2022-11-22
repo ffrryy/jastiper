@@ -41,7 +41,7 @@ class CustomFormField extends StatelessWidget {
           decoration: InputDecoration(
             hintText: !isShowTitle ? title : null,
             border: OutlineInputBorder(
-              borderRadius: BorderRadius.circular(14),
+              borderRadius: BorderRadius.circular(8),
             ),
             contentPadding: const EdgeInsets.all(12),
           ),

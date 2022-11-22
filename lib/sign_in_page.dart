@@ -9,36 +9,16 @@ class SignInPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: const Text(
+          'Masuk',
+        ),
+      ),
       body: ListView(
         padding: const EdgeInsets.symmetric(
           horizontal: 24,
         ),
         children: [
-          Container(
-            width: 110,
-            height: 140,
-            margin: const EdgeInsets.only(
-              top: 100,
-              bottom: 100,
-            ),
-            decoration: const BoxDecoration(
-              image: DecorationImage(
-                image: AssetImage(
-                  'assets/images/img_logo.png',
-                ),
-              ),
-            ),
-          ),
-          Text(
-            'Sign In &\nEnjoy in JASTIPER',
-            style: blackTextStyle.copyWith(
-              fontSize: 20,
-              fontWeight: semiBold,
-            ),
-          ),
-          const SizedBox(
-            height: 30,
-          ),
           Container(
             padding: const EdgeInsets.all(
               22,
@@ -63,17 +43,7 @@ class SignInPage extends StatelessWidget {
                   obscureText: true,
                 ),
                 const SizedBox(
-                  height: 8,
-                ),
-                Align(
-                  alignment: Alignment.centerRight,
-                  child: Text(
-                    'Forgot Password',
-                    style: blueTextStyle,
-                  ),
-                ),
-                const SizedBox(
-                  height: 30,
+                  height: 24,
                 ),
                 CustomFilleddButtonOren(
                   title: 'Sign In',
@@ -82,13 +52,12 @@ class SignInPage extends StatelessWidget {
               ],
             ),
           ),
-          const SizedBox(
-            height: 50,
-          ),
           CustomTextButton(
-            title: 'Create New Account',
+            title: 'Lupa Password ?',
             width: 165,
-            onPressed: () {},
+            onPressed: () {
+              Navigator.pushNamed(context, '/forgotPasswordPage');
+            },
           ),
         ],
       ),

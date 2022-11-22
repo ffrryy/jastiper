@@ -83,8 +83,10 @@ class FirstPage extends StatelessWidget {
                     ),
                     CustomTextButton(
                       title: ' Daftar Sekarang',
-                      width: 122,
-                      onPressed: () {},
+                      width: 140,
+                      onPressed: () {
+                        Navigator.pushNamed(context, '/signUpPage');
+                      },
                     ),
                   ],
                 ),

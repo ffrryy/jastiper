@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "445893454799",
+    "project_id": "jastiper-f8575",
+    "storage_bucket": "jastiper-f8575.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445893454799:android:ddd27fc773b5d7cb4600ba",
+        "android_client_info": {
+          "package_name": "com.example.jastiper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "445893454799-0a58su6pl8lqfls6st8m759v61oi6h3i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_iT0Kk23-Ag_Rk2vE5wLJjBYjlI-POrM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "445893454799-0a58su6pl8lqfls6st8m759v61oi6h3i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
